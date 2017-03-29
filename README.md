@@ -1,0 +1,2 @@
+# regprototype
+reg multi-page
