@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <title>Transfer - Step 1</title>
+</head>
+
+<body>
+
+    <header class="app-header">
+        <a href="#" class="app-header__logo">
+            <img src="../images/ria-logo.svg" alt="Ria logo" />
+        </a>
+        <button class="app-header__button">Menu</button>
+    </header>
+
+    <div class="page-header">
+
+        <div class="transfer-progress">
+            <div class="transfer-progress__step">
+                <span class="transfer-progress__number transfer-progress__number_current">1</span>
+                <span class="transfer-progress__title transfer-progress__title_current">Transfer details</span>
+            </div>
+            <div class="transfer-progress__step">
+                <span class="transfer-progress__number">2</span>
+                <span class="transfer-progress__title">Recipient details</span>
+            </div>
+            <div class="transfer-progress__step">
+                <span class="transfer-progress__number">3</span>
+                <span class="transfer-progress__title">Pickup locations</span>
+            </div>
+            <div class="transfer-progress__step">
+                <span class="transfer-progress__number">4</span>
+                <span class="transfer-progress__title">Payment information</span>
+            </div>
+        </div>
+
+    </div>
+
+    <form class="form" action="transfer-step-2.htm">
+
+        <p><span class="required-indicator">*</span> Required field</p>
+
+        <section class="form__section">
+            <h2 class="form__section-title">Where do you want to send money?</h2>
+            <div class="field form__field">
+                <label class="field__label">Destination <span class="required-indicator">*</span></label>
+                <select class="drop-down">
+            <option>Select Country</option selected>
+              <option value="AF">Afghanistan</option>
+              <option value="AL">Albania</option>
+              <option value="DZ">Algeria</option>
+              <option value="AS">American Samoa</option>
+              <option value="AD">Andorra</option>
+              <option value="AO">Angola</option>
+              <option value="AI">Anguilla</option>
+              <option value="AG">Antigua</option>
+              <option value="AR">Argentina</option>
+              <option value="AM">Armenia</option>
+              <option value="AW">Aruba</option>
+              <option value="AU">Australia</option>
+              <option value="AT">Austria</option>
+              <option value="AZ">Azerbaijan</option>
+              <option value="BS">Bahamas</option>
+              <option value="BH">Bahrain</option>
+              <option value="BD">Bangladesh</option>
+              <option value="BB">Barbados</option>
+              <option value="BY">Belarus</option>
+              <option value="BE">Belgium</option>
+              <option value="BZ">Belize</option>
+              <option value="BJ">Benin</option>
+              <option value="BM">Bermuda</option>
+              <option value="BT">Bhutan</option>
+              <option value="BO">Bolivia</option>
+              <option value="BA">Bosnia and Herzegovina</option>
+              <option value="BW">Botswana</option>
+              <option value="BR">Brazil</option>
+              <option value="IO">British Indian Ocean Territory</option>
+              <option value="BN">Brunei Darussalam</option>
+              <option value="BG">Bulgaria</option>
+              <option value="BF">Burkina Faso</option>
+              <option value="BI">Burundi</option>
+              <option value="KH">Cambodia</option>
+              <option value="CM">Cameroon</option>
+              <option value="CA">Canada</option>
+              <option value="CV">Cape Verde</option>
+              <option value="KY">Cayman Islands</option>
+              <option value="CF">Central African Republic</option>
+              <option value="TD">Chad</option>
+              <option value="CL">Chile</option>
+              <option value="CN">China</option>
+              <option value="CO">Colombia</option>
+              <option value="KM">Comoros</option>
+              <option value="CG">Congo</option>
+              <option value="CD">Congo Democratic Republic</option>
+              <option value="CK">Cook Islands</option>
+              <option value="CR">Costa Rica</option>
+              <option value="CI">Cote d Ivoire</option>
+              <option value="HR">Croatia</option>
+              <option value="CU">Cuba</option>
+              <option value="CW">Curazao</option>
+              <option value="CY">Cyprus</option>
+              <option value="CZ">Czech Republic</option>
+              <option value="DK">Denmark</option>
+              <option value="DJ">Djibouti</option>
+              <option value="DM">Dominica</option>
+              <option value="DO">Dominican Republic</option>
+              <option value="EC">Ecuador</option>
+              <option value="EG">Egypt</option>
+              <option value="SV">El Salvador</option>
+              <option value="GQ">Equatorial Guinea</option>
+              <option value="ER">Eritrea</option>
+              <option value="EE">Estonia</option>
+              <option value="ET">Ethiopia</option>
+              <option value="FK">Falkland Islands</option>
+              <option value="FO">Faroe Islands</option>
+              <option value="FJ">Fiji</option>
+              <option value="FI">Finland</option>
+              <option value="FR">France</option>
+              <option value="GF">French Guiana</option>
+              <option value="PF">French Polynesia</option>
+              <option value="TF">French Southern Territories</option>
+              <option value="GA">Gabon</option>
+              <option value="GM">Gambia</option>
+              <option value="GE">Georgia</option>
+              <option value="DE">Germany</option>
+              <option value="GH">Ghana</option>
+              <option value="GI">Gibraltar</option>
+              <option value="GB">Great Britain</option>
+              <option value="GR">Greece</option>
+              <option value="GL">Greenland</option>
+              <option value="GD">Grenada</option>
+              <option value="GU">Guam</option>
+              <option value="GT">Guatemala</option>
+              <option value="GG">Guernsey</option>
+              <option value="GN">Guinea</option>
+              <option value="GW">Guinea-Bissau</option>
+              <option value="GY">Guyana</option>
+              <option value="HT">Haiti</option>
+              <option value="HM">Heard Islands and McDonald Islands</option>
+              <option value="VA">Holy See (Vatican City State)</option>
+              <option value="HN">Honduras</option>
+              <option value="HK">Hong Kong</option>
+              <option value="HU">Hungary</option>
+              <option value="IS">Iceland</option>
+              <option value="IN">India</option>
+              <option value="ID">Indonesia</option>
+              <option value="IR">Iran Islamic Republic of</option>
+              <option value="IQ">Iraq</option>
+              <option value="IE">Ireland</option>
+              <option value="IM">Isle of Man</option>
+              <option value="IL">Israel</option>
+              <option value="IT">Italy</option>
+              <option value="JM">Jamaica</option>
+              <option value="JP">Japan</option>
+              <option value="JE">Jersey</option>
+              <option value="JO">Jordan</option>
+              <option value="KZ">Kazakhstan</option>
+              <option value="KE">Kenya</option>
+              <option value="KI">Kiribati</option>
+              <option value="KP">Korea, North</option>
+              <option value="KR">Korea, South</option>
+              <option value="KV">Kosovo</option>
+              <option value="KW">Kuwait</option>
+              <option value="KG">Kyrgyzstan</option>
+              <option value="LA">Laos</option>
+              <option value="LV">Latvia</option>
+              <option value="LB">Lebanon</option>
+              <option value="LS">Lesotho</option>
+              <option value="LR">Liberia</option>
+              <option value="LY">Libya</option>
+              <option value="LI">Liechtenstein</option>
+              <option value="LT">Lithuania</option>
+              <option value="LU">Luxembourg</option>
+              <option value="MO">Macau</option>
+              <option value="MK">Macedonia</option>
+              <option value="MG">Madagascar</option>
+              <option value="MW">Malawi</option>
+              <option value="MY">Malaysia</option>
+              <option value="MV">Maldives</option>
+              <option value="ML">Mali</option>
+              <option value="MT">Malta</option>
+              <option value="MH">Marshall Islands</option>
+              <option value="MQ">Martinique</option>
+              <option value="MR">Mauritania</option>
+              <option value="MU">Mauritius</option>
+              <option value="YT">Mayotte</option>
+              <option value="MX">Mexico</option>
+              <option value="FM">Micronesia</option>
+              <option value="MD">Moldova, Republic of</option>
+              <option value="MC">Monaco</option>
+              <option value="MN">Mongolia</option>
+              <option value="ME">Montenegro</option>
+              <option value="MS">Montserrat</option>
+              <option value="MA">Morocco</option>
+              <option value="MZ">Mozambique</option>
+              <option value="MM">Myanmar</option>
+              <option value="NA">Namibia</option>
+              <option value="NR">Nauru</option>
+              <option value="NP">Nepal</option>
+              <option value="NL">Netherlands</option>
+              <option value="NC">New Caledonia</option>
+              <option value="NZ">New Zealand</option>
+              <option value="NI">Nicaragua</option>
+              <option value="NE">Niger Republic of</option>
+              <option value="NG">Nigeria</option>
+              <option value="NU">Niue</option>
+              <option value="NF">Norfolk Island</option>
+              <option value="MP">Northern Mariana Islands</option>
+              <option value="NO">Norway</option>
+              <option value="OM">Oman</option>
+              <option value="PK">Pakistan</option>
+              <option value="PW">Palau</option>
+              <option value="PS">Palestine</option>
+              <option value="PA">Panama</option>
+              <option value="PG">Papua New Guinea</option>
+              <option value="PY">Paraguay</option>
+              <option value="PE">Peru</option>
+              <option value="PH">Philippines</option>
+              <option value="PL">Poland</option>
+              <option value="PT">Portugal</option>
+              <option value="PR">Puerto Rico</option>
+              <option value="QA">Qatar</option>
+              <option value="RE">Reunion</option>
+              <option value="RO">Romania</option>
+              <option value="RU">Russia</option>
+              <option value="RW">Rwanda</option>
+              <option value="SH">Saint Helena</option>
+              <option value="KN">Saint Kitts And Nevis</option>
+              <option value="LC">Saint Lucia</option>
+              <option value="PM">Saint Pierre and Miquelon</option>
+              <option value="VC">Saint Vincent and the Grenadines</option>
+              <option value="WS">Samoa</option>
+              <option value="SM">San Marino</option>
+              <option value="ST">Sao tome and principe</option>
+              <option value="SA">Saudi Arabia</option>
+              <option value="SN">Senegal</option>
+              <option value="RS">Serbia</option>
+              <option value="SC">Seychelles</option>
+              <option value="SL">Sierra Leone</option>
+              <option value="SG">Singapore</option>
+              <option value="SK">Slovakia</option>
+              <option value="SI">Slovenia</option>
+              <option value="SB">Solomon Islands</option>
+              <option value="SO">Somalia</option>
+              <option value="ZA">South Africa</option>
+              <option value="SS">South Sudan</option>
+              <option value="ES">Spain</option>
+              <option value="LK">Sri Lanka</option>
+              <option value="SD">Sudan</option>
+              <option value="SR">Suriname</option>
+              <option value="SJ">Svalbard and Jan Mayen</option>
+              <option value="SZ">Swaziland</option>
+              <option value="SE">Sweden</option>
+              <option value="CH">Switzerland</option>
+              <option value="SY">Syria</option>
+              <option value="TW">Taiwan</option>
+              <option value="TJ">Tajikistan</option>
+              <option value="TZ">Tanzania</option>
+              <option value="TH">Thailand</option>
+              <option value="TL">Timor-Leste</option>
+              <option value="TG">Togo</option>
+              <option value="TK">Tokelau</option>
+              <option value="TO">Tonga</option>
+              <option value="TT">Trinidad</option>
+              <option value="TN">Tunisia</option>
+              <option value="TR">Turkey</option>
+              <option value="TM">Turkmenistan</option>
+              <option value="TC">Turks and Caicos Islands</option>
+              <option value="TV">Tuvalu</option>
+              <option value="UG">Uganda</option>
+              <option value="UA">Ukraine</option>
+              <option value="AE">United Arab Emirates</option>
+              <option value="UK">United Kingdom</option>
+              <option value="US">United States</option>
+              <option value="UY">Uruguay</option>
+              <option value="UZ">Uzbekistan</option>
+              <option value="VU">Vanuatu</option>
+              <option value="VE">Venezuela</option>
+              <option value="VN">Vietnam</option>
+              <option value="VG">Virgin Islands, British</option>
+              <option value="VI">Virgin Islands, US</option>
+              <option value="WF">Wallis and Futuna</option>
+              <option value="YE">Yemen</option>
+              <option value="ZM">Zambia</option>
+              <option value="ZW">Zimbabwe</option>
+          </select>
+            </div>
+            <div class="field form__field">
+                <label class="field__label">Sending (USD) <span class="required-indicator">*</span></label>
+                <input class="text-field" type="number" pattern="\d*" />
+            </div>
+            <div class="field form__field">
+                <label class="field__label">Receiving (MXN) <span class="required-indicator">*</span></label>
+                <input class="text-field" type="number" pattern="\d*" />
+            </div>
+            <div class="field form__field">
+                <label class="field__label">Exchange rate</label>
+                <div>1 USD = 19.61054 MXN</div>
+            </div>
+        </section>
+
+        <section class="form__section">
+            <h2 class="form__section-title">Fees</h2>
+            <table class="fee-summary">
+                <tr class="fee-summary__fee">
+                    <th class="fee-summary__title">Bank account</th>
+                    <td class="fee-summary__value"><a href="#">3 business days</a></td>
+                    <td class="fee-summary__value">$3</td>
+                </tr>
+                <tr class="fee-summary__fee">
+                    <th class="fee-summary__title">Credit card</th>
+                    <td class="fee-summary__value"><a href="#">Within minutes</a></td>
+                    <td class="fee-summary__value">$8</td>
+                </tr>
+                <tr class="fee-summary__fee">
+                    <th class="fee-summary__title">{Option 3}</th>
+                    <td class="fee-summary__value"><a href="#">Within minutes</a></td>
+                    <td class="fee-summary__value">$4</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="form__section">
+            <h2 class="form__section-title">How do you want your recipient to receive it?</h2>
+            <div class="option-group">
+                <div class="radio-button option-group__option">
+                    <input class="radio-button__input" type="radio" id="bankDeposit" name="payoutMethod" checked>
+                    <label class="radio-button__label" for="bankDeposit">Bank deposit</label>
+                </div>
+                <div class="radio-button option-group__option">
+                    <input class="radio-button__input" type="radio" id="cashPickup" name="payoutMethod">
+                    <label class="radio-button__label" for="cashPickup">Cash pickup</label>
+                </div>
+            </div>
+        </section>
+
+        <div class="button-group form__button-group">
+            <a class="primary-button hero__form-item" href="transfer-step-2.htm">Continue</a>
+            <a href="signup-step-3.htm" class="secondary-button button-group__button">Back</a>
+        </div>
+
+        <section class="summary">
+            <h2 class="summary__main-title">Summary</h2>
+            <div class="summary__content">
+                <section class="summary__section">
+                    <h3 class="summary__section-title">Details</h3>
+                    <table>
+                        <tr>
+                            <th class="summary__label">Destination</th>
+                            <td class="summary__value">Mexico</td>
+                        </tr>
+                        <tr>
+                            <th class="summary__label">Sending</th>
+                            <td class="summary__value">$100</td>
+                        </tr>
+                        <tr>
+                            <th class="summary__label">Receiving</th>
+                            <td class="summary__value">1,962.04 MXN</td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="summary__section">
+                    <h3 class="summary__section-title summary__section-title_empty">Recipient Details</h3>
+                </section>
+                <section class="summary__section">
+                    <h3 class="summary__section-title summary__section-title_empty">Payout Method</h3>
+                </section>
+                <section class="summary__section">
+                    <h3 class="summary__section-title summary__section-title_empty">Payment Method</h3>
+                </section>
+            </div>
+        </section>
+
+    </form>
+
+    <footer class="footer">
+        <nav class="footer__nav">
+            <h3 class="footer__title">Contact</h3>
+            <ul class="footer__link-list">
+                <li><a href="#">1-800-900-1234</a></li>
+                <li><a href="#">support@riamoneytransfer.com</a></li>
+            </ul>
+            <h3 class="footer__title">Support</h3>
+            <ul class="footer__link-list">
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Countries We Serve</a></li>
+                <li><a href="#">Site Map</a></li>
+            </ul>
+            <h3 class="footer__title">Your Privacy &amp; Security</h3>
+            <ul class="footer__link-list">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">Your Security</a></li>
+                <li><a href="#">Consumer Protection</a></li>
+            </ul>
+            <h3 class="footer__title">Legal</h3>
+            <ul class="footer__link-list">
+                <li><a href="#">Complaints Policy</a></li>
+                <li><a href="#">Legal Compliance Guarantee</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+        </nav>
+        <small class="footer__small-print">Ria Financial Services. Serving you since 1987. Copyright 2017 Continental Exchange Solutions, Inc. All rights reserved.</small>
+    </footer>
+
+</body>
+
+</html>

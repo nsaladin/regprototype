@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <title>Transfer - Step 3</title>
+  </head>
+
+  <body>
+
+    <header class="app-header">
+      <a href="#" class="app-header__logo">
+        <img src="../images/ria-logo.svg" alt="Ria logo" />
+      </a>
+      <button class="app-header__button">Menu</button>
+    </header>
+
+    <div class="page-header">
+
+      <div class="transfer-progress">
+        <div class="transfer-progress__step">
+          <span class="transfer-progress__number transfer-progress__number_complete">1</span>
+          <span class="transfer-progress__title transfer-progress__title_complete">Transfer details</span>
+        </div>
+        <div class="transfer-progress__step">
+          <span class="transfer-progress__number transfer-progress__number_complete">2</span>
+          <span class="transfer-progress__title transfer-progress__title_complete">Recipient details</span>
+        </div>
+        <div class="transfer-progress__step">
+          <span class="transfer-progress__number transfer-progress__number_current">3</span>
+          <span class="transfer-progress__title transfer-progress__title_current">Pickup locations</span>
+        </div>
+        <div class="transfer-progress__step">
+          <span class="transfer-progress__number">4</span>
+          <span class="transfer-progress__title">Payment information</span>
+        </div>
+      </div>
+
+    </div>
+
+    <form class="form" action="transfer-step-4.htm">
+
+      <section class="form__section">
+        <h2 class="form__section-title">Where would you like the recipient to pick up the money?</h2>
+        <div class="option-group">
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio" id="location1" name="location" checked>
+            <label class="radio-button__label location" for="location1">
+              <h4 class="location__title">1st Street Market</h4>
+              <div>3417 West 1st Street, Los Angeles, CA</div>
+              <div class="location__distance">2 miles</div>
+            </label>
+          </div>
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio" id="location2" name="location">
+            <label class="radio-button__label location" for="location2">
+              <h4 class="location__title">7Day’s Food Store</h4>
+              <div>12411 Burbank Blvd, Los Angeles, CA</div>
+              <div class="location__distance">2 miles</div>
+            </label>
+          </div>
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio" id="location3" name="location">
+            <label class="radio-button__label location" for="location3">
+              <h4 class="location__title">A M Trading</h4>
+              <div>1100 Maple St, Los Angeles, CA</div>
+              <div class="location__distance">2 miles</div>
+            </label>
+          </div>
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio" id="location4" name="location">
+            <label class="radio-button__label location" for="location4">
+              <h4 class="location__title">Abarotes Sierra Juarez</h4>
+              <div>1306  Magnolia Ave, Los Angeles, CA</div>
+              <div class="location__distance">2 miles</div>
+            </label>
+          </div>
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio" id="location5" name="location">
+            <label class="radio-button__label location" for="location5">
+              <h4 class="location__title">Afex #10</h4>
+              <div>310 Florence Ave, Los Angeles, CA</div>
+              <div class="location__distance">2 miles</div>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <div class="button-group form__button-group">
+        <a class="primary-button hero__form-item" href="transfer-step-4.htm">Continue</a>
+        <a href="transfer-step-2.htm" class="secondary-button button-group__button">Back</a>
+      </div>
+
+      <section class="summary">
+        <h2 class="summary__main-title">Summary</h2>
+        <div class="summary__content">
+          <section class="summary__section">
+            <h3 class="summary__section-title">Details</h3>
+            <table>
+              <tr>
+                <th class="summary__label">Destination</th>
+                <td class="summary__value">Mexico</td>
+              </tr>
+              <tr>
+                <th class="summary__label">Sending</th>
+                <td class="summary__value">$100</td>
+              </tr>
+              <tr>
+                <th class="summary__label">Receiving</th>
+                <td class="summary__value">1,962.04 MXN</td>
+              </tr>
+            </table>
+          </section>
+          <section class="summary__section">
+            <h3 class="summary__section-title">Recipient Details</h3>
+            <table>
+              <tr>
+                <th class="summary__label">Send to</th>
+                <td class="summary__value">Jacob Jabs <br />23476 S Main <br />Guadalajara JAL</td>
+              </tr>
+            </table>
+          </section>
+          <section class="summary__section">
+            <h3 class="summary__section-title">Payout Method</h3>
+            <table>
+              <tr>
+                <th class="summary__label">Cash pickup</th>
+              </tr>
+              <tr>
+                <th class="summary__label">Agent</th>
+                <td class="summary__value">Bancomer (BTS)</td>
+              </tr>
+            </table>
+          </section>
+          <section class="summary__section">
+            <h3 class="summary__section-title summary__section-title_empty">Payment Method</h3>
+          </section>
+        </div>
+      </section>
+
+    </form>
+
+    <footer class="footer">
+      <nav class="footer__nav">
+        <h3 class="footer__title">Contact</h3>
+        <ul class="footer__link-list">
+          <li><a href="#">1-800-900-1234</a></li>
+          <li><a href="#">support@riamoneytransfer.com</a></li>
+        </ul>
+        <h3 class="footer__title">Support</h3>
+        <ul class="footer__link-list">
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Countries We Serve</a></li>
+          <li><a href="#">Site Map</a></li>
+        </ul>
+        <h3 class="footer__title">Your Privacy &amp; Security</h3>
+        <ul class="footer__link-list">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Your Security</a></li>
+          <li><a href="#">Consumer Protection</a></li>
+        </ul>
+        <h3 class="footer__title">Legal</h3>
+        <ul class="footer__link-list">
+          <li><a href="#">Complaints Policy</a></li>
+          <li><a href="#">Legal Compliance Guarantee</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+        </ul>
+      </nav>
+      <small class="footer__small-print">Ria Financial Services. Serving you since 1987. Copyright 2017 Continental Exchange Solutions, Inc. All rights reserved.</small>
+    </footer>
+
+  </body>
+
+</html>

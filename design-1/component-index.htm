@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Component Index</title>
+  </head>
+
+  <body>
+
+    <section class="component">
+      <h2 class="component__title">app-header</h2>
+      <div class="component__example">
+        <header class="app-header">
+          <a href="#" class="app-header__logo">
+            <img src="./images/ria-logo.svg" alt="Ria logo" />
+          </a>
+          <button class="app-header__button">Menu</button>
+        </header>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">signup-progress</h2>
+      <div class="component__example">
+        <div class="signup-progress">
+          <span class="signup-progress__step signup-progress__step_active"></span>
+          <span class="signup-progress__step"></span>
+          <span class="signup-progress__step"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">drop-down</h2>
+      <div class="component__example">
+        <select class="drop-down">
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">radio-button</h2>
+      <div class="component__example">
+        <div class="radio-button">
+          <input type="radio" class="radio-button__input" />
+          <label class="radio-button__label">Option 1</label>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">checkbox</h2>
+      <div class="component__example">
+        <div class="checkbox">
+          <input type="checkbox" class="checkbox__input" />
+          <label class="checkbox__label">Option 1</label>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">page-title</h2>
+      <div class="component__example">
+        <h1 class="page-title">Login Information</h1>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">option-group</h2>
+      <div class="component__example">
+        <div class="option-group">
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio">
+            <label class="radio-button__label">Option 1</label>
+          </div>
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio">
+            <label class="radio-button__label">Option 2</label>
+          </div>
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio">
+            <label class="radio-button__label">Option 3</label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">required-indicator</h2>
+      <div class="component__example">
+          <span class="required-indicator">*</span>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">field</h2>
+      <div class="component__example">
+        <div class="field">
+          <label class="field__label">Email</label>
+          <input class="text-field" type="email" />
+          <div class="field__tip">
+            <p>Create a strong password:<br />Make it at least 8 characters.<br contenteditable=""/>Include at least 1 capital letter and 1 number.</p>
+            <p>Note: Including special characters can increase your security, but it is not required.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">text-field</h2>
+      <div class="component__example">
+        <input class="text-field" type="email" />
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">transfer-progress</h2>
+      <div class="component__example">
+        <div class="transfer-progress">
+          <div class="transfer-progress__step">
+            <span class="transfer-progress__number transfer-progress__number_complete">1</span>
+            <span class="transfer-progress__title transfer-progress__title_complete">Transfer details</span>
+          </div>
+          <div class="transfer-progress__step">
+            <span class="transfer-progress__number transfer-progress__number_current">2</span>
+            <span class="transfer-progress__title transfer-progress__title_current">Recipient details</span>
+          </div>
+          <div class="transfer-progress__step">
+            <span class="transfer-progress__number">3</span>
+            <span class="transfer-progress__title">Pickup locations</span>
+          </div>
+          <div class="transfer-progress__step">
+            <span class="transfer-progress__number">4</span>
+            <span class="transfer-progress__title">Payment information</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">primary-button</h2>
+      <div class="component__example">
+        <button class="primary-button">Continue</button>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">secondary-button</h2>
+      <div class="component__example">
+        <a class="secondary-button">Back</a>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">button-group</h2>
+      <div class="component__example">
+        <div class="button-group">
+          <button class="primary-button button-group__button">Continue</button>
+          <a class="secondary-button button-group__button">Back</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">footer</h2>
+      <div class="component__example">
+        <footer class="footer">
+          <nav class="footer__nav">
+            <h3 class="footer__title">Contact</h3>
+            <ul class="footer__link-list">
+              <li><a href="#">1-800-900-1234</a></li>
+              <li><a href="#">support@riamoneytransfer.com</a></li>
+            </ul>
+            <h3 class="footer__title">Support</h3>
+            <ul class="footer__link-list">
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Countries We Serve</a></li>
+              <li><a href="#">Site Map</a></li>
+            </ul>
+            <h3 class="footer__title">Your Privacy &amp; Security</h3>
+            <ul class="footer__link-list">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">Your Security</a></li>
+              <li><a href="#">Consumer Protection</a></li>
+            </ul>
+            <h3 class="footer__title">Legal</h3>
+            <ul class="footer__link-list">
+              <li><a href="#">Complaints Policy</a></li>
+              <li><a href="#">Legal Compliance Guarantee</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+          </nav>
+          <small class="footer__small-print">Ria Financial Services. Serving you since 1987. Copyright 2017 Continental Exchange Solutions, Inc. All rights reserved.</small>
+        </footer>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">summary</h2>
+      <div class="component__example">
+        <section class="summary">
+          <h2 class="summary__main-title">Summary</h2>
+          <div class="summary__content">
+            <section class="summary__section">
+              <h3 class="summary__section-title">Details</h3>
+              <table>
+                <tr>
+                  <th class="summary__label">Destination</th>
+                  <td class="summary__value">Mexico</td>
+                </tr>
+                <tr>
+                  <th class="summary__label">Sending</th>
+                  <td class="summary__value">$100</td>
+                </tr>
+                <tr>
+                  <th class="summary__label">Receiving</th>
+                  <td class="summary__value">1,962.04 MXN</td>
+                </tr>
+              </table>
+            </section>
+            <section class="summary__section">
+              <h3 class="summary__section-title">Recipient Details</h3>
+              <table>
+                <tr>
+                  <th class="summary__label">Send to</th>
+                  <td class="summary__value">Jacob Jabs <br />23476 S Main <br />Guadalajara JAL</td>
+                </tr>
+              </table>
+            </section>
+            <section class="summary__section">
+              <h3 class="summary__section-title">Payout Method</h3>
+              <table>
+                <tr>
+                  <th class="summary__label">Cash pickup</th>
+                </tr>
+                <tr>
+                  <th class="summary__label">Agent</th>
+                  <td class="summary__value">Bancomer (BTS)</td>
+                </tr>
+              </table>
+            </section>
+            <section class="summary__section">
+              <h3 class="summary__section-title">Payment Method</h3>
+              <table>
+                <tr>
+                  <th class="summary__label">Card type</th>
+                  <td class="summary__value">Visa Debit</td>
+                </tr>
+                <tr>
+                  <th class="summary__label">Card number</th>
+                  <td class="summary__value">&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;1234</td>
+                </tr>
+                <tr>
+                  <th class="summary__label">Expiry date</th>
+                  <td class="summary__value">11/21</td>
+                </tr>
+              </table>
+            </section>
+            <section class="summary__section">
+              <h3 class="summary__section-title summary__section-title_empty">Empty Section</h3>
+            </section>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">fee-summary</h2>
+      <div class="component__example">
+        <table class="fee-summary">
+          <tr class="fee-summary__fee">
+            <th class="fee-summary__title">Bank account</th>
+            <td class="fee-summary__value"><a href="#">3 business days</a></td>
+            <td class="fee-summary__value">$3</td>
+          </tr>
+          <tr class="fee-summary__fee">
+            <th class="fee-summary__title">Credit card</th>
+            <td class="fee-summary__value"><a href="#">Within minutes</a></td>
+            <td class="fee-summary__value">$8</td>
+          </tr>
+          <tr class="fee-summary__fee">
+            <th class="fee-summary__title">{Option 3}</th>
+            <td class="fee-summary__value"><a href="#">Within minutes</a></td>
+            <td class="fee-summary__value">$4</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">location</h2>
+      <div class="component__example">
+        <div class="location">
+          <h4 class="location__title">Afex #10</h4>
+          <div>310 Florence Ave, Los Angeles, CA</div>
+          <div class="location__distance">2 miles</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">option-group</h2>
+      <div class="component__example">
+        <div class="option-group">
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio">
+            <label class="radio-button__label location">
+              <h4 class="location__title">1st Street Market</h4>
+              <div>3417 West 1st Street, Los Angeles, CA</div>
+              <div class="location__distance">2 miles</div>
+            </label>
+          </div>
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio">
+            <label class="radio-button__label location">
+              <h4 class="location__title">7Day’s Food Store</h4>
+              <div>12411 Burbank Blvd, Los Angeles, CA</div>
+              <div class="location__distance">2 miles</div>
+            </label>
+          </div>
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio">
+            <label class="radio-button__label location">
+              <h4 class="location__title">A M Trading</h4>
+              <div>1100 Maple St, Los Angeles, CA</div>
+              <div class="location__distance">2 miles</div>
+            </label>
+          </div>
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio">
+            <label class="radio-button__label location">
+              <h4 class="location__title">Abarotes Sierra Juarez</h4>
+              <div>1306  Magnolia Ave, Los Angeles, CA</div>
+              <div class="location__distance">2 miles</div>
+            </label>
+          </div>
+          <div class="radio-button option-group__option">
+            <input class="radio-button__input" type="radio">
+            <label class="radio-button__label location">
+              <h4 class="location__title">Afex #10</h4>
+              <div>310 Florence Ave, Los Angeles, CA</div>
+              <div class="location__distance">2 miles</div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">form</h2>
+      <div class="component__example">
+        <form class="form">
+          <section class="form__section">
+            <h2 class="form__section-title">Where do you want to send money?</h2>
+          </section>
+          <div class="field form__field">
+            <label class="field__label">Sending (USD) <span class="required-indicator">*</span></label>
+            <input class="text-field" type="number" />
+          </div>
+          <div class="button-group form__button-group">
+            <button class="primary-button button-group__button">Continue</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">page-header</h2>
+      <div class="component__example">
+        <div class="page-header">
+          <h1 class="page-title">Account Security</h1>
+          <div class="signup-progress">
+            <span class="signup-progress__step"></span>
+            <span class="signup-progress__step signup-progress__step_active"></span>
+            <span class="signup-progress__step"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">grid</h2>
+      <div class="component__example">
+        <div class="grid">
+          <select class="drop-down grid__column">
+            <option>Month...</option selected>
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+          </select>
+          <select class="drop-down grid__column">
+            <option>Year...</option selected>
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">feature</h2>
+      <div class="component__example">
+        <section class="features">
+          <h2 class="features__title">It Pays to Send Money Today!</h2>
+          <p class="features__details">New to Ria? Complete your first money transfer and get a $10 Amazon.com Gift Card* as a Welcome Bonus!</p>
+          <button class="features__button">Learn more</button>
+        </section>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">hero</h2>
+      <div class="component__example">
+        <div class="hero hero_human">
+          <div class="hero__wrapper">
+            <p class="hero__intro">Are you ready to enjoy great rates and low fees? Use Ria for your international money transfer.</p>
+            <form>
+              <button class="primary-button hero__form-item">Start sending</button>
+              <a class="secondary-button hero__form-item" href="#">Already have an account? Sign in</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">hero</h2>
+      <div class="component__example">
+        <div class="hero hero_stars">
+          <div class="hero__wrapper">
+            <p class="hero__intro">Are you ready to enjoy great rates and low fees? Use Ria for your international money transfer.</p>
+            <form>
+              <input class="text-field hero__form-item" type="email" placeholder="Email address" />
+              <button class="primary-button hero__form-item">Get started</button>
+              <div class="hero__form-item">Or</div>
+              <button class="primary-button hero__button_facebook hero__form-item">Sign up with Facebook</button>
+              <button class="primary-button hero__button_google hero__form-item">Sign up with Google+</button>
+              <div class="hero__form-item">Ria will never post to your social feed or share your personal information.</div>
+              <a class="secondary-button button-group__button hero__form-item" href="#">Already have an account? Sign in</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">combo</h2>
+      <div class="component__example">
+        <div class="combo">
+          <input class="text-field combo__text-field" type="number" />
+          <select class="drop-down combo__drop-down">
+            <option selected>INR</option>
+            <option>MXN</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="component">
+      <h2 class="component__title">calculator</h2>
+      <div class="component__example">
+        <div class="calculator">
+          <div class="calculator__wrapper">
+            <form class="form calculator__form">
+              <div class="grid">
+                <div class="field form__field grid__column">
+                  <label class="field__label">Send to</label>
+                  <select class="drop-down">
+                    <option selected>India</option>
+                    <option>Mexico</option>
+                  </select>
+                </div>
+                <div class="field grid__column">
+                  <label class="field__label">Send USD</label>
+                  <input class="text-field" value="$500" />
+                </div>
+              </div>
+              <div class="field form__field">
+                <label class="field__label calculator__payout-label">They'll get <span class="calculator__rate">1 USD = 68.167 INR</span></label>
+                <div class="combo">
+                  <input class="text-field combo__text-field" value="26,476.00" />
+                  <select class="drop-down combo__drop-down">
+                    <option selected>INR</option>
+                    <option>USD</option>
+                  </select>
+                </div>
+              </div>
+              <button class="primary-button">Send Money Now</button>
+              <small class="calculator__small-print">No fees* with direct debit.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+
+</html>
